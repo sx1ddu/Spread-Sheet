@@ -1,0 +1,17 @@
+#container {
+  background-color: #f4f7f9;
+  display: grid;
+  grid-template-columns: 50px repeat(10, 200px);
+  grid-template-rows: repeat(11, 30px);
+}
+
+.label {
+  background-color: #dfe4ea;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2f3542;
+  border: 1px solid #ced6e0;
+}
